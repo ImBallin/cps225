@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="po.xsl" type="text/xsl" ?>
+
+<purchaseOrder poNum="1254314" orderDate="1999-10-20">
+	<addresses>
+		<address type="shipTo" country="US">
+			<name>Alice Smith</name>
+			<street>123 Maple Street</street>
+			<city>Mill Valley</city>
+			<state>CA</state>
+			<zip>90952</zip>
+		</address>
+		<address type="billTo" country="US">
+			<name>Robert Smith</name>
+			<street>8 Oak Avenue</street>
+			<city>Old Town</city>
+			<state>PA</state>
+			<zip>95819</zip>
+		</address>
+	</addresses>
+    <comments>
+		<comment>Hurry, the grass is going wild!</comment>
+		<comment>wef;jerjh</comment>
+		<comment>eqrwerlh'lqwe</comment>
+		<comment>faqwe'rhioqr</comment>
+		<comment>5'qth34</comment>
+		<comment>5yp565</comment>
+    </comments>
+    <items>
+		<item type='header' partNum="PartNum">
+            <productName>Name</productName>
+            <quantity>Qty</quantity>
+            <USPrice>Price</USPrice>	
+            <shipDate>ShipDate</shipDate> 
+            <comment>Comment</comment>
+		</item>
+        <item partNum="872-AA">
+            <productName>Lawnmower</productName>
+            <quantity>1</quantity>
+            <USPrice>148.95</USPrice>
+            <shipDate/> 
+            <comment>Confirm this is electric</comment>
+        </item>
+        <item partNum="926-AA">
+            <productName>Baby Monitor</productName>
+            <quantity>1</quantity>
+            <USPrice>39.98</USPrice>
+            <shipDate>1999-05-21</shipDate>
+            <comment/> 
+        </item>
+    </items>
+</purchaseOrder>
